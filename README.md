@@ -22,6 +22,7 @@ Die Datenbank speichert die Benutzerinformationen, einschließlich der Anzahl de
 
 # Hosting
 Gehostet wurde der Bot über das KeksPanel. Dies habe ich durch einen Discord Server kennengelernt. Dort muss man nur seine files ablegen, und danach kann man direkt seinen Bot hosten. Dies ist auch völlig kostenlos. Für mehr Leistung muss man jedoch den Discord Server boosten oder generell Geld zahlen.
+
 # Zusammenfassung
 
 Dieser Level-System Discord Bot bietet eine unterhaltsame Möglichkeit, die Aktivität der Benutzer auf einem Discord-Server zu verfolgen und zu belohnen. Benutzer können ihre Fortschritte und den Wettbewerb mit anderen über verschiedene Befehle verfolgen. Die Verwendung von SQLite für die Datenbank und die Implementierung der Level-Logik ermöglichen eine effiziente und skalierbare Lösung.

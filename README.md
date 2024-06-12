@@ -6,7 +6,7 @@ Bot-Initialisierung
 Der Bot wird mit den benötigten Berechtigungen (Intents) initialisiert, um Nachrichten und Mitgliederinformationen verarbeiten zu können. Beim Starten des Bots werden alle Erweiterungen (Cogs) im Verzeichnis "cogs" geladen.
 
 # Level-System
-1. Der Kern des Level-Systems wird in einer eigenen Klasse (levelSystem) implementiert. Diese Klasse enthält Methoden zum Verwalten und Verfolgen von Benutzeraktivitäten:
+Der Kern des Level-Systems wird in einer eigenen Klasse (levelSystem) implementiert. Diese Klasse enthält Methoden zum Verwalten und Verfolgen von Benutzeraktivitäten:
   - XP und Level Berechnung: Die Methode get_level berechnet das Level eines Benutzers basierend auf den gesammelten XP. Der Erfahrungsbedarf steigt exponentiell mit jedem Level.
   - Datenbank Initialisierung: Beim Start des Bots wird überprüft, ob die benötigte SQLite-Datenbank und die Tabelle für Benutzer existieren. Falls nicht, werden sie erstellt.
   - Benutzerüberprüfung: Die Methode check_user stellt sicher, dass jeder Benutzer in der Datenbank vorhanden ist, indem er einen Eintrag hinzufügt, wenn der Benutzer noch nicht existiert.
